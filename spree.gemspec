@@ -25,4 +25,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_frontend', s.version
   s.add_dependency 'spree_sample', s.version
   s.add_dependency 'spree_cmd', s.version
+  
 end
