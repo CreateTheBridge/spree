@@ -1,5 +1,5 @@
 Spree::Core::Engine.add_routes do
-  resources :products, :only => [:index, :show]
+  # resources :products, :only => [:index, :show]
 
   get '/locale/set', :to => 'locale#set'
 
