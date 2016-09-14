@@ -1,5 +1,7 @@
 Spree::Core::Engine.add_routes do
 
+  mount_ember_app :frontend, to: '/'
+
   # root :to => 'home#index'
 
   resources :products, :only => [:index, :show]
